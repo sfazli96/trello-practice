@@ -1,4 +1,216 @@
 /* Your code here */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  background-color: orange;
+}
+
+/* header nav bar */
+.header-nav__container {
+  background-color: #026AA7;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Change alert color to red */
+#alerts {
+  background-color: #CF513D;
+}
+
+.team__container {
+  background-color: #f4f5f7;
+  padding: 32px;
+}
+
+.team__info {
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 650px;
+  text-align: center;
+}
+
+.team__info > h1 {
+  margin: 0 0 12px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.team__info > a {
+  color: #172b4d;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.tabbed-nav__container {
+  background-color: #f4f5f7;
+}
+
+.tabbed-nav__group {
+  border-bottom: 1px solid #dfe1e6;
+  display: flex;
+  justify-content: center;
+}
+
+.tabbed-nav__link {
+  background-color: white;
+  border: 1px solid #dfe1e6;
+  border-bottom: 0;
+  border-radius: 2px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 10px;
+  margin: 0 px;
+  color: #172b4d;
+}
+
+.boards__group > .board-1 {
+  background-image: url(./board-backgrounds/board-1-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 120px;
+}
+
+.boards__group > .board-2 {
+  background-image: url(./board-backgrounds/board-2-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 120px;
+}
+
+.boards__group > .board-3 {
+  background-image: url(./board-backgrounds/board-3-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 120px;
+}
+
+.boards__group > .board-4 {
+  background-image: url(./board-backgrounds/board-4-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 120px;
+}
+
+.boards__group > .board-5 {
+  background-image: url(./board-backgrounds/board-5-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 120px;
+}
+
+.boards__group > .board-6 {
+  background-image: url(./board-backgrounds/board-6-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 120px;
+}
+
+.boards__group > .board-7 {
+  background-image: url(./board-backgrounds/board-7-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 120px;
+}
+
+.boards__group > .board-8 {
+  background-image: url(./board-backgrounds/board-8-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 120px;
+}
+
+.boards__group > .board-9 {
+  background-image: url(./board-backgrounds/board-9-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 120px;
+}
+
+.boards__group > .board-10 {
+  background-image: url(./board-backgrounds/board-10-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 120px;
+}
+
+.boards__container {
+  margin: 0 auto;
+  padding: 32px;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.boards__group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.boards__sidebar {
+  background-color: #6C547B;
+  border-radius: 3px;
+  margin: 0 32px 32px 0;
+  padding: 0 20px 32px 20px;
+  max-height: 130px;
+  max-width: 180px;
+  width: 20%;
+  flex-basis: 220px;
+  flex-grow: 0px;
+  flex-shrink: 0px;
+}
+
+.nt .title, .boardboards__sidebar-contes__sidebar-content .cta a {
+  color: white;
+}
+
+.boards__sidebar-content p {
+  color: lightblue;
+}
+
+.boards__board {
+  background-color: hotpink;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-weight: bold;
+  height: 100px;
+  margin: 0 8px 16px;
+  max-width: 250px;
+  padding: 4px 8px;
+  position: relative;
+  color: white;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+
 
 /* Supplied CSS follows. */
 .header-nav__group{
@@ -50,4 +262,49 @@
 
  .header-nav__button > i{
   width: 24px;
+}
+
+@media screen and (max-width: 730px) {
+  .boards__container {
+    display: none;
+  }
+
+  #search {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 501px) {
+  .tabbed-nav__group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tabbed-nav__group, .tabbed-nav__link {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .boards__board {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .boards__board {
+    width: 33%;
+  }
+}
+
+@media screen and (min-width: 751px) {
+  .boards__board {
+    width: 100%;
+    max-width: unset;
+  }
 }

@@ -274,4 +274,4 @@ or equal to 750 pixels in width. For that break point, set the width of the
 [3]: https://css-tricks.com/almanac/properties/o/opacity/
 [4]: https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API
 [Font Awesome free icon search page]: https://fontawesome.com/icons?d=gallery&m=free
-[starter]: https://github.com/appacademy/practice-for-week-07-recreate-trello-long-practice# trello-practice
+[starter]: https://github.com/appacademy/practice-for-week-07-recreate-trello-long-practice
